@@ -20,7 +20,7 @@ jobs:
      - name: Change wrapper permissions
        run: chmod +x ./gradlew   
      - name: Publish
-       run: ./gradlew publishAllPublicationsToOss
+       run: ./gradlew tasks
        env:
          SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
