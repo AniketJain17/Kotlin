@@ -24,9 +24,5 @@ jobs:
        env:
          SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-     - name: Super-Linter
-       uses: github/super-linter@v4.9.7   
 
- 
-    
  
